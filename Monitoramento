@@ -1,0 +1,95 @@
+Treinento AZ104
+Desafio - Implementando Monitoramento no Azure
+
+Monitoramento de Maquinas virtuais:
+
+  O monitoramento de máquinas virtuais no Azure é um conjunto de ferramentas e práticas que permitem acompanhar, 
+  analisar e responder ao comportamento e ao desempenho das suas VMs (Virtual Machines). Em outras palavras, 
+  ele funciona como os "olhos e ouvidos" da sua infraestrutura na nuvem. Estas ferramentas sao essenciais para 
+  a correta administracao pro-ativa das suas maquinas virtuais.
+
+📡 O que é o Monitoramento de VMs no Azure?
+
+🔧 Funcionalidade Principal
+    Coleta de métricas como uso de CPU, memória, disco e rede
+    Captura de logs de sistema operacional e eventos de aplicativos
+    Alertas inteligentes com base em condições específicas (ex: lentidão ou falha)
+    Visualização de dados por meio de dashboards e gráficos
+
+🔍 Tecnologias Utilizadas
+    Azure Monitor: serviço central de monitoramento
+    Log Analytics Workspace: coleta e análise detalhada de dados
+    Azure Monitor Agent: agente moderno para coleta de métricas e logs
+    Azure Workbooks: painel interativo para visualização avançada
+
+🚨 Benefícios
+    Identifica problemas antes que afetem usuários
+    Otimiza o uso de recursos e reduz custos
+    Aumenta a segurança com detecção de atividades incomuns
+    Ajuda na tomada de decisões estratégicas com base em dados reais
+
+  Usar o monitoramento de máquinas virtuais no Azure é essencial para garantir desempenho, segurança e economia de recursos. 
+  Veja os principais motivos porque voce deve utilizar o monitoramento:
+
+🔍 Visibilidade e Diagnóstico Proativo
+    Detecta problemas de desempenho (CPU, memória, disco) antes de impactarem serviços
+    Permite solucionar falhas mais rapidamente com logs e métricas detalhadas
+
+💸 Otimização de Custos
+    Identifica VMs subutilizadas ou ociosas, ajudando a reduzir gastos desnecessários
+    Monitora picos de carga para ajustar o dimensionamento e evitar superprovisionamento
+
+🛡️ Segurança e Conformidade
+    Rastreia atividades suspeitas ou não autorizadas (acessos, alterações de configuração)
+    Facilita auditorias e relatórios de conformidade com padrões como ISO ou GDPR
+
+🚀 Escalabilidade e Automação
+    Cria alertas e ações automáticas para eventos críticos
+    Se integra com outros serviços como Logic Apps, Power Automate e webhooks para respostas automatizadas
+
+📈 Planejamento e Melhoria Contínua
+    Fornece dados históricos para análise de tendências e capacidade
+    Suporta decisões estratégicas para evolução da infraestrutura
+
+Checklist bem estruturado para te ajudar na configuração do monitoramento de máquinas virtuais no Microsoft Azure. 
+Ele tem as etapas principais para garantir visibilidade e controle sobre o desempenho e a integridade das VMs.
+
+✅ Checklist de Monitoramento de Máquinas Virtuais no Azure
+  🔧 Pré-requisitos
+    [ ] Ter uma conta ativa no Azure
+    [ ] Máquinas virtuais já criadas e em funcionamento
+    [ ] Permissões de administrador para configurar recursos de monitoramento
+  📡 Configurar Monitoramento com Azure Monitor
+    [ ] Habilitar o diagnóstico da VM no portal do Azure
+    Ativar a coleta de logs e métricas
+    [ ] Instalar o agente do Azure Monitor
+    Azure Monitor Agent (AMA) é recomendado sobre o antigo Log Analytics Agent
+    [ ] Vincular a VM a uma workspace do Log Analytics
+    Facilita a coleta e análise dos dados
+  📊 Monitorar Métricas e Logs
+    [ ] Verificar métricas padrão (CPU, disco, rede, memória)
+    [ ] Configurar alertas com base em limites predefinidos
+    Exemplo: Alerta quando uso de CPU excede 90%
+    [ ] Habilitar logs de atividade para rastrear ações administrativas
+    [ ] Ativar logs de integridade e eventos do sistema
+  📈 Dashboards e Visualização
+    [ ] Criar um dashboard personalizado no Azure Portal
+    Incluir gráficos de desempenho, alertas e status de disponibilidade
+    [ ] Utilizar o Azure Workbooks para visualizações avançadas
+    [ ] Integrar com Power BI (opcional) para relatórios interativos
+  ⚠️ Configurar Alertas e Ações Automatizadas
+    [ ] Criar alertas de métricas e eventos
+    [ ] Definir ações automáticas (como envio de e-mail ou chamada de webhook)
+    [ ] Usar Action Groups para agrupar notificações
+  🛠️ Manutenção e Auditoria
+    [ ] Revisar e atualizar periodicamente as configurações de monitoramento
+    [ ] Validar se os agentes estão ativos e funcionando corretamente
+    [ ] Auditar o consumo de recursos e otimizar conforme necessário
+
+O Monitoramento e parte essencial do dia-a-dia do profissional de cloud que esta responsavel por garantir
+a disponibilidade do negocio 24 horas X 7 dias por semana.
+
+Lembre-se sempre de validar a documentacao oficial da Microsoft:
+https://learn.microsoft.com/pt-br/training/modules/configure-monitoring-virtual-machines/
+
+Bons estudos.
