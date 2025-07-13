@@ -28,6 +28,7 @@ Desafio - Gerenciando Maquinas Virtuais Azure
 
         Veja progresso da criacao da maquina.
         Depois da criacao, valide as configuracoes.
+        Atualize as documentacoes do seu ambiente.
         Libere a maquina para uso.
 
 Lembre-se de definir muito bem os requisitos de maquina que voce precisa, pois isso impacta no seu custo.
