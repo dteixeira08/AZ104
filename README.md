@@ -15,16 +15,16 @@ Desafio - Gerenciando Maquinas Virtuais Azure
 
   Passos resumidos para criar a maquina virtual:
     1. Create a virtual Machine
-      Coloque o nome (Nome usado para a maquina. Exemplo: AZ104-VM01-BR)
-      Zona (Regiao que voce quer alocar a maquina)
-      Rede (VNET)
-      Selecione a imagem (Windows, Linux)
-      Size (SKU da Maquina)
-      Senha (Senha que voce ira utilizar como administrador)
-      Selecione os discos (Tamanho bem como a performance do mesmo)
-      Selecione IP publicos (se necessario)
-      Adicione TAG
-      Revisa e Crie a sua maquina
+          Coloque o nome (Nome usado para a maquina. Exemplo: AZ104-VM01-BR)
+          Zona (Regiao que voce quer alocar a maquina)
+          Rede (VNET)
+          Selecione a imagem (Windows, Linux)
+          Size (SKU da Maquina)
+          Senha (Senha que voce ira utilizar como administrador)
+          Selecione os discos (Tamanho bem como a performance do mesmo)
+          Selecione IP publicos (se necessario)
+          Adicione TAG
+          Revisa e Crie a sua maquina
 
         Veja progresso da criacao da maquina.
         Depois da criacao, valide as configuracoes.
@@ -33,7 +33,12 @@ Desafio - Gerenciando Maquinas Virtuais Azure
 
 Lembre-se de definir muito bem os requisitos de maquina que voce precisa, pois isso impacta no seu custo.
 
+Caso a aplicacao tenha um uso maior em um periodo especifico do mes, voce pode tambem configurar a maquina para SCALE UP (Aumentar os recursos) baseado em uma regra, e/ou SCALE DOWN (Dimuniur os recursos). 
+  Exemplos de uso:
+    1. Alta utilizacao durante o fechamento de mes da empresa
+    2. Datas comemorativas como Black Friday.
 
+Estes passos sao importantes para a correta criacao da maquina.
     
 
     
